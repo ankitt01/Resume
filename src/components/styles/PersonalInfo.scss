@@ -1,0 +1,191 @@
+// Variables
+$dark: rgb(19, 18, 19);
+$light-dark:#1e1e1f;
+$light-light-dark: #3F3F40;
+$font-base-size: 15px;
+$font-mobile-size: 14px;
+$color-heading: #FCFCFC;
+$color-paragraph: #D6D6D6;
+$color-border: #383838;
+$color-bg: #121212;
+$color-surface-1: #1e1e1f;
+$color-surface-2: #2a2a2b;
+$color-surface-3: #202021;
+$color-accent: #FFDB6E;
+$color-error: #B84C4C;
+$bs-gray: #6c757d;
+$color-gradient-gray: linear-gradient(137.84deg, #3F3F40 2.69%, #303030 93.75%);
+// Variables
+.personal-info {
+    background-color: $light-dark;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    @media (min-width: 768px) {
+        font-size: 2rem;
+        padding: 3.5rem;
+    }
+    @media (min-width: 1000px) {
+        font-size: 2rem;
+        padding: 2.2rem;
+    }
+    @media (min-width: 1260px) {
+        font-size: 1.5rem;
+        padding: 2.2rem;
+        width: 300px;
+    }
+    border-radius: 30px;
+    border: 1px solid $color-border;
+    position: relative;
+    transition: all ease 0.3s;
+}
+
+.detail {
+    display: flex;
+    @media (min-width: 1260px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        .image-container {
+            transform: translateX(90%);
+            margin-bottom: 1em;
+        }
+    }
+    padding-bottom: 1.5em;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $color-border;
+    }
+    .image-container {
+        margin-right: 1.5em;
+        width: 6em;
+        height: 6em;
+        border-radius: 20px;
+        background-color: #fff;
+        background-color: #3F3F40;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 3.5em;
+            height: 3.5em;
+        }
+    }
+    .desc-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+        .name {
+            margin-bottom: 1em;
+            color: $color-heading;
+            font-weight: 400;
+            font-size: 1em;
+            @media (min-width: 1260px) {
+                font-size: 1.2em;
+            }
+        }
+        .desc {
+            display: inline-block;
+            text-align: center;
+            padding: 0.4rem 0.8rem;
+            background-color: $color-border;
+            border-radius: 7px;
+            font-size: 0.8em;
+            @media (min-width: 1260px) {
+                margin-inline: auto;
+                width: 130px;
+            }
+        }
+    }
+}
+
+.down-arrow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    padding: 1rem;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    @media (min-width: 768px) {
+        display: none;
+    }
+    border: 1px solid $color-border;
+    color: $color-accent;
+    cursor: pointer;
+    i {
+        font-size: 1rem;
+    }
+}
+
+.contacts {
+    .tiles {
+        display: grid;
+        @media (min-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (min-width: 1260px) {
+            grid-template-columns: 1fr;
+        }
+    }
+    .contact {
+        padding: 1.2em 0;
+        display: flex;
+        justify-content: start;
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1.5rem;
+            i {
+                color: $color-accent;
+                padding: 0.7em;
+                border: 1px solid $color-border;
+                border-radius: 10px;
+            }
+        }
+        .label {
+            font-size: 0.7em;
+            font-weight: 400;
+            color: $color-paragraph;
+        }
+        .value {
+            font-size: 0.8em;
+            color: $color-heading;
+        }
+    }
+}
+
+.social-icons {
+    position: relative;
+    padding-top: 1.1em;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $color-border;
+    }
+    i {
+        margin-inline: 1em;
+        font-size: 1em;
+        color: $color-paragraph;
+    }
+    @media (min-width: 1260px) {
+        text-align: center;
+    }
+}

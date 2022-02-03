@@ -1,10 +1,10 @@
-import './App.css';
-import Resume from './components/resume/Resume';
+import './App.scss';
+import PersonalInfo from './components/PersonalInfo';
 
 function App() {
   return (
     <div className="App">
-      <Resume />
+      <PersonalInfo />
     </div>
   );
 }
