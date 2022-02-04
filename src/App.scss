@@ -27,13 +27,18 @@ body {
 }
 
 .App {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
     @media (min-width: 480px) {
-        margin: 2vw;
+        // margin: 2vw;
     }
     @media (min-width: 768px) {
         margin: 7vw;
     }
     @media (min-width: 1260px) {
+        grid-template-columns: 300px auto;
+        grid-gap: 2em;
         margin: 7vw 10vw;
     }
 }

@@ -1,0 +1,24 @@
+// Variables
+$dark: rgb(19, 18, 19);
+$light-dark:#1e1e1f;
+$light-light-dark: #3F3F40;
+$font-base-size: 15px;
+$font-mobile-size: 14px;
+$color-heading: #FCFCFC;
+$color-paragraph: #D6D6D6;
+$color-border: #383838;
+$color-bg: #121212;
+$color-surface-1: #1e1e1f;
+$color-surface-2: #2a2a2b;
+$color-surface-3: #202021;
+$color-accent: #FFDB6E;
+$color-error: #B84C4C;
+$bs-gray: #6c757d;
+$color-gradient-gray: linear-gradient(137.84deg, #3F3F40 2.69%, #303030 93.75%);
+$box-shadow-30: 0px 16px 30px rgba(0, 0, 0, 0.25);
+$color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64, 0) 48.44%);
+// Variables
+.resume {
+    border-radius: 30px;
+    background-color: $light-dark;
+}
