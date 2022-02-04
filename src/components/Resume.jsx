@@ -25,7 +25,7 @@ function Resume() {
             </div>
 
             <div className="education">
-                <h2>Projects</h2>
+                <h2 id='projects'>Projects</h2>
                 <div className="tile">
                     <p className="sub-title"> <a href="https://airbnb-clone-murex-xi.vercel.app/">Airbnb-Clone</a> </p>
                     <p className="year">2021</p>
@@ -44,7 +44,21 @@ function Resume() {
             </div>
 
             <div className="skills">
-                <h2>Skills</h2>
+                <h2>My Skills</h2>
+                <div className='tabs'>
+                    <div className="tab">HTML</div>
+                    <div className="tab">CSS</div>
+                    <div className="tab">Javascript</div>
+                    <div className="tab">ReactJs</div>
+                    <div className="tab">NextJS</div>
+                    <div className="tab">Bootstrap</div>
+                    <div className="tab">TailwindCss</div>
+                    <div className="tab">NodeJs</div>
+                    <div className="tab">ExpressJs</div>
+                    <div className="tab">MongoDB</div>
+                    <div className="tab">Firebase</div>
+                    <div className="tab">C++</div>
+                </div>
             </div>
       </div>
   )
