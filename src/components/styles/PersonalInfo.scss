@@ -32,11 +32,11 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         padding: 2.2rem;
     }
     @media (min-width: 1260px) {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         padding: 2.2rem;
         width: 300px;
+        height: 580px;
     }
-    // border-radius: 30px;
     border: 1px solid $color-border;
     position: relative;
     transition: all ease 0.3s;

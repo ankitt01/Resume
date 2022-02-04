@@ -37,8 +37,13 @@ body {
         margin: 7vw;
     }
     @media (min-width: 1260px) {
+        width: 80%;
+        margin: 7vw 0;
+        margin-inline: auto;
         grid-template-columns: 300px auto;
         grid-gap: 2em;
-        margin: 7vw 10vw;
+    }
+    @media (min-width: 1500px) {
+        width: 70%;
     }
 }

@@ -1,24 +1,106 @@
-// Variables
-$dark: rgb(19, 18, 19);
-$light-dark:#1e1e1f;
-$light-light-dark: #3F3F40;
-$font-base-size: 15px;
-$font-mobile-size: 14px;
-$color-heading: #FCFCFC;
-$color-paragraph: #D6D6D6;
-$color-border: #383838;
-$color-bg: #121212;
-$color-surface-1: #1e1e1f;
-$color-surface-2: #2a2a2b;
-$color-surface-3: #202021;
-$color-accent: #FFDB6E;
-$color-error: #B84C4C;
-$bs-gray: #6c757d;
-$color-gradient-gray: linear-gradient(137.84deg, #3F3F40 2.69%, #303030 93.75%);
-$box-shadow-30: 0px 16px 30px rgba(0, 0, 0, 0.25);
-$color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64, 0) 48.44%);
-// Variables
-.resume {
-    border-radius: 30px;
-    background-color: $light-dark;
-}
+    // Variables
+    $dark: rgb(19, 18, 19);
+    $light-dark:#1e1e1f;
+    $light-light-dark: #3F3F40;
+    $font-base-size: 15px;
+    $font-mobile-size: 14px;
+    $color-heading: #FCFCFC;
+    $color-paragraph: #D6D6D6;
+    $color-border: #383838;
+    $color-bg: #121212;
+    $color-surface-1: #1e1e1f;
+    $color-surface-2: #2a2a2b;
+    $color-surface-3: #202021;
+    $color-accent: #FFDB6E;
+    $color-error: #B84C4C;
+    $bs-gray: #6c757d;
+    $color-gradient-gray: linear-gradient(137.84deg, #3F3F40 2.69%, #303030 93.75%);
+    $box-shadow-30: 0px 16px 30px rgba(0, 0, 0, 0.25);
+    $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64, 0) 48.44%);
+    // Variables
+    .resume {
+        border-radius: 30px;
+        background-color: $light-dark;
+        font-size: 1.125rem;
+        padding: 1.5rem;
+        @media (min-width: 768px) {
+            padding: 2rem
+        }
+        @media (min-width: 1260px) {
+            font-size: 1.3rem;
+            padding: 1rem 3rem
+        }
+        .title {
+            font-size: 2.1em;
+            position: relative;
+            padding-bottom: 0.35em;
+            margin: 1em;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 30px;
+                border-radius: 10px;
+                height: 3px;
+                background-color: $color-accent;
+                left: 0;
+                bottom: 0px;
+            }
+        }
+    }
+    
+    .education {
+        font-size: 1.125rem;
+        padding-inline-start: 1em;
+        line-height: 1.6;
+        font-size: 1.1em;
+        margin-top: 2em;
+        h2 {
+            padding: 0 0 0 1.75em;
+            position: relative;
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                content: "\f518";
+                position: absolute;
+                left: -17px;
+                color: $color-accent;
+                padding: 0.3em 0.5em;
+                font-size: 0.9em;
+                border: 1px solid $color-border;
+                border-radius: 30px;
+            }
+        }
+    }
+    
+    .tile {
+        font-size: 1.2em;
+        margin: 1em 0;
+        padding: 0 0 0 2em;
+        position: relative;
+        border-left: 1px solid $color-border;
+        .sub-title {
+            font-weight: 500;
+            a {
+                color: $color-heading;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                border: 2px solid $color-border;
+                background-color: $color-accent;
+                top: 0.5em;
+                left: -5px;
+            }
+        }
+        .year {
+            color: $color-accent;
+            font-size: 0.9em;
+        }
+        .desc {
+            span {
+                color: $color-accent;
+            }
+        }
+    }
