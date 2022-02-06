@@ -35,7 +35,7 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         font-size: 1.7rem;
         padding: 2.2rem;
         width: 300px;
-        height: 580px;
+        height: 610px;
     }
     border: 1px solid $color-border;
     position: relative;
@@ -83,6 +83,12 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         @media (min-width: 1260px) {
             margin: 0;
             margin-bottom: 1em;
+            width: 8em;
+            height: 8em;
+            img {
+                width: 6em;
+                height: 6em;
+            }
         }
     }
     .desc-container {
