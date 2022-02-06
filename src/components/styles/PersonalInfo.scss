@@ -77,8 +77,12 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         align-items: center;
         justify-content: center;
         img {
-            width: 3.5em;
-            height: 3.5em;
+            width: 4em;
+            height: 4em;
+        }
+        @media (min-width: 1260px) {
+            margin: 0;
+            margin-bottom: 1em;
         }
     }
     .desc-container {
