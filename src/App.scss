@@ -30,6 +30,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    position: relative;
     @media (min-width: 480px) {
         // margin: 2vw;
     }
@@ -38,7 +39,7 @@ body {
     }
     @media (min-width: 1260px) {
         width: 80%;
-        margin: 7vw 0;
+        margin: 5vw 0;
         margin-inline: auto;
         grid-template-columns: 300px auto;
         grid-gap: 2em;

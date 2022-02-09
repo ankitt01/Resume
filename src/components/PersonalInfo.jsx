@@ -20,11 +20,8 @@ function PersonalInfo() {
             setClicked(false);
           }
         }
-    
         handleResize();
-    
         window.addEventListener("resize", handleResize);
-    
         return () => window.removeEventListener("resize", handleResize);
       }, []);
   return (

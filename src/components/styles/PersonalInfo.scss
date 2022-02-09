@@ -2,8 +2,6 @@
 $dark: rgb(19, 18, 19);
 $light-dark:#1e1e1f;
 $light-light-dark: #3F3F40;
-$font-base-size: 15px;
-$font-mobile-size: 14px;
 $color-heading: #FCFCFC;
 $color-paragraph: #D6D6D6;
 $color-border: #383838;
@@ -32,6 +30,8 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         padding: 2.2rem;
     }
     @media (min-width: 1260px) {
+        position: sticky;
+        top: 0;
         font-size: 1.7rem;
         padding: 2.2rem;
         width: 300px;
@@ -101,7 +101,7 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
             margin-bottom: 1em;
             color: $color-heading;
             font-weight: 400;
-            font-size: 1em;
+            font-size: 1.2em;
             @media (min-width: 1260px) {
                 font-size: 1.2em;
             }

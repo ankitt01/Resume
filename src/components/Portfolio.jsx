@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/Portfolio.scss'
 import webdes from '../img/icon-design.svg'
 import webdev from '../img/icon-dev.svg'
+
 function Portfolio() {
     return <div className='portfolio'>
       <section className="about-me">
@@ -25,9 +26,9 @@ function Portfolio() {
                     <h2>Web Developer</h2>
                     <p>High-quality development of sites at the professional level.</p></div>
                 </div>
+                
           </div>
       </section>
-
   </div>;
 }
 
