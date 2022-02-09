@@ -1,0 +1,100 @@
+    $color-border: #383838;
+    $color-heading: #FCFCFC;
+    $color-accent: #FFDB6E;
+    $color-paragraph: #D6D6D6;
+    // .header {
+    //     position: absolute;
+    //     bottom: 0;
+    //     @media (min-width: 1000px) {
+    //         right: 0;
+    //     }
+    //     z-index: 999;
+    //     border: 1px solid $color-border;
+    //     border-radius: 30px;
+    //     nav {
+    //         i {
+    //             @media (min-width: 1000px) {
+    //                 display: none;
+    //             }
+    //             font-size: 2.5rem;
+    //             float: right;
+    //             margin: 0.75em;
+    //             cursor: pointer;
+    //         }
+    //     }
+    //     ul {
+    //         list-style-type: none;
+    //         padding: 0.75em;
+    //         // display: none;
+    //         display: flex;
+    //         li {}
+    //         @media (min-width: 1000px) {
+    //             display: inline block;
+    //             li {
+    //                 margin-inline: 1em;
+    //                 a {
+    //                     text-decoration: none;
+    //                     color: white;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    .header {
+        position: fixed;
+        backdrop-filter: blur(6px);
+        // background: rgba(43, 43, 44, 0.75);
+        background-color: #fff;
+        border-radius: 20px 20px 0 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 5rem;
+        z-index: 99;
+        transition: all 250ms ease;
+        nav {
+            font-size: 1.5rem;
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+                height: 3em;
+                li {
+                    margin-inline: 1em;
+                }
+                a {
+                    text-decoration: none;
+                    // color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+    
+    @media (min-width: 1000px) {
+        .header {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: auto;
+            height: 2.7125em;
+            border-radius: 0 20px 0 20px;
+            background: rgba(43, 43, 44, 0.75);
+            nav ul {
+                padding: 2em;
+                padding: 30px;
+                li {
+                    a {
+                        color: $color-heading;
+                        &:hover {
+                            color: $color-paragraph;
+                        }
+                    }
+                    a.active {
+                        color: $color-accent;
+                    }
+                }
+            }
+        }
+    }
