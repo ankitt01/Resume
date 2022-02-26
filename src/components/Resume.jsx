@@ -3,6 +3,7 @@ import './styles/Resume.scss'
 import About from './About'
 
 function Resume() {
+    console.log("test")
   return (
       <div className='resume'>
           <h2 className='title'>Resume</h2>

@@ -1,8 +1,9 @@
 import React from 'react'
 
 function Portfolio() {
+  console.log("portfolio")
   return (
-    <div>
+    <div className='portfolio'>
         <h1>Portfolio projects and all</h1>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Portfolio.scss'
+import './styles/About.scss'
 import webdes from '../img/icon-design.svg'
 import webdev from '../img/icon-dev.svg'
 
