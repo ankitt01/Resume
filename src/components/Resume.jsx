@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Resume.scss'
-import Portfolio from './Portfolio'
+import About from './About'
 
 function Resume() {
   return (
@@ -61,7 +61,7 @@ function Resume() {
                     <div className="tab">C++</div>
                 </div>
             </div>
-            <Portfolio />
+            <About />
       </div>
   )
 }

@@ -3,7 +3,7 @@ import './styles/Portfolio.scss'
 import webdes from '../img/icon-design.svg'
 import webdev from '../img/icon-dev.svg'
 
-function Portfolio() {
+function About() {
     return <div className='portfolio'>
       <section className="about-me">
       <h1 className='title'>About Me</h1>
@@ -32,4 +32,4 @@ function Portfolio() {
   </div>;
 }
 
-export default Portfolio;
+export default About;
