@@ -5,7 +5,7 @@ import About from './About'
 function Resume() {
     console.log("test")
   return (
-      <div className='resume'>
+      <div className='parent_container'>
           <h2 className='title'>Resume</h2>
             <div className="education">
                 <h2>Education</h2>

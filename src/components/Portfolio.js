@@ -3,8 +3,8 @@ import React from 'react'
 function Portfolio() {
   console.log("portfolio")
   return (
-    <div className='portfolio'>
-        <h1>Portfolio projects and all</h1>
+    <div className='parent_container'>
+        <h1 className='title'>Portfolio</h1>
     </div>
   )
 }

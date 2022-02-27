@@ -23,13 +23,9 @@
                 align-items: center;
                 list-style-type: none;
                 height: 3em;
-                li {
-                    margin-inline: 1em;
-                }
                 a {
                     text-decoration: none;
-                    // color: white;
-                    color: black;
+                    margin-right: 1em;;
                 }
             }
         }
@@ -48,16 +44,12 @@
             nav ul {
                 padding: 2em;
                 padding: 30px;
-                li {
-                    a {
-                        color: $color-heading;
-                        &:hover {
-                            color: $color-paragraph;
-                        }
-                    }
-                    a.active {
-                        color: $color-accent;
-                    }
+                .link {
+                    color: $color-paragraph;
+                    
+                }
+                .active {
+                    color: $color-accent;
                 }
             }
         }

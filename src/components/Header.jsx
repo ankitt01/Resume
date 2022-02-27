@@ -1,17 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './styles/Header.scss'
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
+  
   return (
     <div className='header'>
-        <nav>
-            <ul>
-                <Link to="/">Resume</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact</Link>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+        <NavLink className="link" to="/" exact activeClassName="active" >Resume</NavLink>
+        <NavLink className="link" to="/portfolio"activeClassName="active" >Portfolio</NavLink>          
+          <NavLink className="link" to="/contact" activeClassName="active">Contact</NavLink>
+        </ul>
+      </nav>
     </div>
   )
 }
