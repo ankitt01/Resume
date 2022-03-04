@@ -8,8 +8,8 @@ function Header() {
     <div className='header'>
       <nav>
         <ul>
-        <NavLink className="link" to="/" exact activeClassName="active" >Resume</NavLink>
-        <NavLink className="link" to="/portfolio"activeClassName="active" >Portfolio</NavLink>          
+          <NavLink className="link" to="/" exact activeClassName="active" >Resume</NavLink>
+          <NavLink className="link" to="/portfolio"activeClassName="active" >Portfolio</NavLink>          
           <NavLink className="link" to="/contact" activeClassName="active">Contact</NavLink>
         </ul>
       </nav>
