@@ -7,7 +7,7 @@
         position: fixed;
         backdrop-filter: blur(6px);
         // background: rgba(43, 43, 44, 0.75);
-        background-color: #fff;
+        background-color: $color-border;
         border-radius: 20px 20px 0 0;
         bottom: 0;
         left: 0;
@@ -24,6 +24,7 @@
                 list-style-type: none;
                 height: 3em;
                 a {
+                    color: $color-heading;
                     text-decoration: none;
                     margin-right: 1em;;
                 }
