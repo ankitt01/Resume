@@ -75,9 +75,9 @@ function PersonalInfo() {
                 </div>
                 
                 <div className="social-icons">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-github"></i>
+                <a target="_blank" href="https://www.linkedin.com/in/ankit-singh-rawat-7aa399190/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://www.instagram.com/an.kitt_"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/ankitt01"><i class="fab fa-github"></i></a>
                 </div>
             </div>}
             

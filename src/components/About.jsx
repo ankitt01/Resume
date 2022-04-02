@@ -25,11 +25,10 @@ function About() {
                 <div>
                     <h2>Web Developer</h2>
                     <p>High-quality development of sites at the professional level.</p></div>
-                </div>
-                
+                </div>        
           </div>
       </section>
-  </div>;
+  </div>
 }
 
 export default About;
