@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import Project from './Project'
 import './styles/Portfolio.scss'
+import { motion, AnimatePresence } from 'framer-motion'
+
+
 function Portfolio() {
   const [projects, setProjects] = useState([
     {
@@ -12,6 +15,11 @@ function Portfolio() {
       img: "amazon.PNG",
       title: "Amazon-Clone",
       category: "Web Development",
+    },
+    {
+      img: "css-grid.PNG",
+      title: "CSS Grids",
+      category: "Web Design",
     },
     {
       img: "covid.PNG",
@@ -27,11 +35,6 @@ function Portfolio() {
       img: "crypto.PNG",
       title: "Crypto Tracker",
       category: "Web Development",
-    },
-    {
-      img: "css-grid.PNG",
-      title: "CSS Grids",
-      category: "Web Design",
     },
     {
       img: "glint.PNG",
@@ -73,15 +76,17 @@ function Portfolio() {
         <h1 className='title'>Portfolio</h1>
         <div className='tabs'>
           <button onClick={() => setActiveFilter("All")} className={`${activeFilter ==="All" ? "active" : ""} tab`}>All</button>
-          <button onClick={() => setActiveFilter("Web Design")} className= {`${activeFilter ==="Web Design" ? "active" : ""} tab`}>Web Design</button>
           <button onClick={() => setActiveFilter("Web Development")} className={`${activeFilter ==="Web Development" ? "active" : ""} tab`}>Web Development</button>
+          <button onClick={() => setActiveFilter("Web Design")} className= {`${activeFilter ==="Web Design" ? "active" : ""} tab`}>Web Design</button>
           <button onClick={() => setActiveFilter("Applications")} className={`${activeFilter ==="Applications" ? "active" : ""} tab`}>Applications</button>
         </div>
-        <div className='projects'>
-          {filtered.map((project,i) => {
-            return <Project project={project} key={i}/>
-          })}
-        </div>
+        <motion.div layout className='projects'>
+          <AnimatePresence>
+            {filtered.map((project,i) => {
+              return <Project project={project} key={i}/>
+            })}
+          </AnimatePresence>
+        </motion.div>
     </div>
   )
 }
