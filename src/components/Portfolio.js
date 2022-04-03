@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState, useEffect } from 'react'
 import Project from './Project'
 import './styles/Portfolio.scss'
 function Portfolio() {
@@ -56,18 +56,29 @@ function Portfolio() {
 
 
 ])
-  console.log(projects)
+  const [filtered, setFiltered] = useState([projects])
+  const [activeFilter, setActiveFilter] = useState("All")
+  
+  useEffect(() => {
+      if(activeFilter == "All") {
+        setFiltered(projects);
+        return;
+      }
+      const filteredProjects = projects.filter(project => project.category.includes(activeFilter))
+      setFiltered(filteredProjects)
+  }, [activeFilter])
+
   return (
     <div className='parent_container'>
         <h1 className='title'>Portfolio</h1>
         <div className='tabs'>
-          <button className="tab">All</button>
-          <button className="tab">Web Design</button>
-          <button className="tab">Web Development</button>
-          <button className="tab">Applications</button>
+          <button onClick={() => setActiveFilter("All")} className={`${activeFilter ==="All" ? "active" : ""} tab`}>All</button>
+          <button onClick={() => setActiveFilter("Web Design")} className= {`${activeFilter ==="Web Design" ? "active" : ""} tab`}>Web Design</button>
+          <button onClick={() => setActiveFilter("Web Development")} className={`${activeFilter ==="Web Development" ? "active" : ""} tab`}>Web Development</button>
+          <button onClick={() => setActiveFilter("Applications")} className={`${activeFilter ==="Applications" ? "active" : ""} tab`}>Applications</button>
         </div>
         <div className='projects'>
-          {projects.map((project,i) => {
+          {filtered.map((project,i) => {
             return <Project project={project} key={i}/>
           })}
         </div>

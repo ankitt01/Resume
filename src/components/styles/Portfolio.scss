@@ -62,7 +62,11 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         }
     }
 }
+
 .tabs {
+    .active {
+        color: $color-accent !important;
+    }
     .tab {
         background-color: transparent;
         border: none;
