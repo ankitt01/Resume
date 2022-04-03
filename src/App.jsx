@@ -3,7 +3,7 @@ import Header from './components/Header';
 import PersonalInfo from './components/PersonalInfo';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Test from './components/Test';
+import ProjectDetail from './components/ProjectDetail';
 import {
   Switch,
   Route
@@ -23,6 +23,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/:title">
+          <ProjectDetail />
         </Route>
         <Route path="/">
           <Resume />
