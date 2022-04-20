@@ -3,8 +3,12 @@ import {useParams} from "react-router-dom";
 
 const ProjectDetail = () => {
     const {title} = useParams()
+    const projectDesc = [];
   return (
-    <div>{title}</div>
+    <div className='parent_container'>
+      <h1 className='title'>Portfolio</h1>
+      {title}
+    </div>
   )
 }
 

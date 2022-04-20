@@ -22,6 +22,7 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
     background-color: $light-dark;
     font-size: 1.125rem;
     padding: 1.5rem;
+    position: relative;
     @media (min-width: 768px) {
         padding: 2rem;
         border-radius: 30px;

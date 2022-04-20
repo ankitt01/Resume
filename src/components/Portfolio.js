@@ -10,26 +10,35 @@ function Portfolio() {
       img: "airbnb.PNG",
       title: "Airbnb-Clone",
       category: "Web Development",
+      desc: "This project is a UI clone of Airbnb Website. It takes location from the user along with check-in and check-out dates of journey. Then fetches data according to the input from an API. Displays location in a map using MapBox. It is fully responsive for all device widths.",
+      tech: [ "ReactJs", "NextJs", "Tailwind Css"],
     },
     {
       img: "amazon.PNG",
       title: "Amazon-Clone",
       category: "Web Development",
+      desc: "This project is an Amazon UI clone in which the items are fetched from an API. It also has functionality of checking out and comes with Google Authentication. It is fully responsive for all device widths.",
+      tech: ["ReactJs", "Redux", "NextJs", "Firebase"],
     },
     {
       img: "css-grid.PNG",
       title: "CSS Grids",
       category: "Web Design",
+      desc: "Implementation of CSS Grid",
+      tech: ["CSS"]
     },
     {
       img: "covid.PNG",
       title: "Covid 19 Landing Page",
       category: "Web Development",
+      desc: "This project is a static landing page built using ReactJs which displays information about Covid19. Also fetches total number of cases.",
+      tech: ["HTML", "CSS", "JavaScript"]
     },
     {
       img: "cred.PNG",
       title: "CRED-Clone",
       category: "Web Development",
+      desc: ""
     },
     {
       img: "crypto.PNG",
