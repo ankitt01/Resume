@@ -39,7 +39,7 @@ function PersonalInfo() {
         </div>
         
         <div className="down-arrow" onClick={toggleContacts}>
-            <i class="fas fa-chevron-down"></i>
+            <i className="fas fa-chevron-down"></i>
         </div>
 
         <div className='contacts-container'>
@@ -47,7 +47,7 @@ function PersonalInfo() {
                 <div className="tiles">
                     <div className="contact">
                         <div className="icon">
-                            <i class="far fa-envelope"></i>
+                            <i className="far fa-envelope"></i>
                         </div>
                         <div>
                             <h3 className="label">EMAIL</h3>
@@ -56,7 +56,7 @@ function PersonalInfo() {
                     </div>
                     <div className="contact">
                         <div className="icon">
-                            <i class="fas fa-phone-alt"></i>
+                            <i className="fas fa-phone-alt"></i>
                         </div>
                         <div>
                             <h3 className="label">PHONE</h3>
@@ -65,7 +65,7 @@ function PersonalInfo() {
                     </div>
                     <div className="contact">
                         <div className="icon">
-                            <i class="fas fa-map-marker-alt"></i>                
+                            <i className="fas fa-map-marker-alt"></i>                
                         </div>
                         <div>
                             <h3 className="label">LOCATION</h3>
@@ -75,9 +75,9 @@ function PersonalInfo() {
                 </div>
                 
                 <div className="social-icons">
-                <a target="_blank" href="https://www.linkedin.com/in/ankit-singh-rawat-7aa399190/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a target="_blank" href="https://www.instagram.com/an.kitt_"><i class="fab fa-instagram"></i></a>
-                <a target="_blank" href="https://github.com/ankitt01"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/ankit-singh-rawat-7aa399190/"><i className="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://www.instagram.com/an.kitt_"><i className="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/ankitt01"><i className="fab fa-github"></i></a>
                 </div>
             </div>}
             

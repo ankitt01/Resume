@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: #FFDB6E;
+}
+
+::selection {
+  color: #FFDB6E;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+.Loading {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #131213;
+  color: #D6D6D6;
+  font-size: 2.1rem;
+}
+
+.App {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 1em;
+  position: relative;
+}
+
+@media (min-width: 550px) {
+  .App {
+    margin: 4vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    margin: 7vw;
+  }
+}
+
+@media (min-width: 1260px) {
+  .App {
+    width: 80%;
+    margin: 5vw 0;
+    margin-inline: auto;
+    -ms-grid-columns: 300px auto;
+        grid-template-columns: 300px auto;
+    grid-gap: 2em;
+  }
+}
+
+@media (min-width: 1500px) {
+  .App {
+    width: 70%;
+  }
+}
+
+.mapp {
+  background-color: #fff;
+}
+/*# sourceMappingURL=App.css.map */
