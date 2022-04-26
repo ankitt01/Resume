@@ -38,32 +38,37 @@ function Portfolio() {
       img: "cred.PNG",
       title: "CRED-Clone",
       category: "Web Development",
-      desc: ""
+      desc: "This is a clone of CRED website's UI which is one of the best in startup world. Used technologies like intersection observor for animations. The website is responsive for all screen sizes",
+      tech: ["ReactJs", "Tailwind CSS"],
     },
     {
       img: "crypto.PNG",
       title: "Crypto Tracker",
       category: "Web Development",
-    },
-    {
-      img: "glint.PNG",
-      title: "Static Landing Page",
-      category: "Web Development",
+      desc: "This is a cypto dashboard which consists of all cryptocurrency's prices in tabular form along with search functoinalities. Here user can create his own profile to bookmark certain crypto coins and keep track on their values. It also has data visualisation using chartjs library for every crypto coin. This website is responsive for all screen sizes",
+      tech: ["ReactJs", "Tailwind CSS", "Firebase", "ChartJs"],
     },
     {
       img: "tesla.PNG",
       title: "Tesla-Clone",
       category: "Web Development",
+      desc: "This is a clone of tesla's official site's UI. This was one of my very initial projects while learning react. Used reusable components for different sections of the website. This website is also responsive for all screen sizes.",
+      tech: ["ReactJs", "Styled Components"],
     },
+    {
+      img: "glint.PNG",
+      title: "Static Landing Page",
+      category: "Web Development",
+      desc: "This is just a static landing page developed using HTML and Scss. This was among my very first projects in my web development career.",
+      tech: ["ReactJs", "Scss"],
+    },
+    
     {
       img: "travel.PNG",
       title: "Traveling Landing Page",
       category: "Web Design",
-    },
-    {
-      img: "weather2.PNG",
-      title: "Weather App",
-      category: "Web Development",
+      desc: "This is just a static landing page developed using HTML and CSS. This was among my very first projects in my web development career.",
+      tech: ["ReactJs", "CSS"],
     },
 
 
