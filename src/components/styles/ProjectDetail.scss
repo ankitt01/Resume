@@ -1,0 +1,55 @@
+$dark: rgb(19, 18, 19);
+$light-dark:#1e1e1f;
+$light-light-dark: #3F3F40;
+$color-heading: #FCFCFC;
+$color-paragraph: #D6D6D6;
+$color-accent: #FFDB6E;
+$color-border: #383838;
+$color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64, 0) 48.44%);
+
+.project-banner {
+    img {
+        width: 100%;
+        margin: 20px 0;
+    }
+    button {
+        padding: 0.7em 1.2em;
+        color: $color-accent;
+        background: $color-gradient-border-gray;
+        border: 1px solid $color-border;
+        border-radius: 10px;
+        margin-right: 1em;
+    }
+}
+.project-desc {
+    font-size: 1.2em;
+    padding: 20px 0;
+}
+.linkp {
+    text-decoration: none;
+    color: $color-paragraph;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.fa-arrow-left {
+    margin-right: 10px;
+}
+.alice-carousel a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alice-carousel li {
+    width: auto;
+}
+.heading {
+    font-size: calc(2.5em + 1vw);
+}
+.slider {
+    // width: 100%;
+    // background: white;
+    // height: 20px;
+}
+.slider-container {
+    overflow: hidden;
+}

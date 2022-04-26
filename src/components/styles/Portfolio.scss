@@ -32,47 +32,34 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
     @media (min-width: 1000px) {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
     img {
         width: 100%;
-        height: 100%;
-        border-radius: 20px;
     }
     .project {
         overflow: hidden;
         margin: 1em 0.75em;
         cursor: pointer;
-        .img-container {
-            margin-bottom: 1em;
-            overflow: hidden;
-            border-radius: 2rem;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            img {
-                // width: 100%;
-                height: 100%;
-                border-radius: 2rem;
-                transition: 250ms ease;
-                object-fit: cover;
-                &:hover {
-                    transform: scale(1.1);
-                }
-            }
-        }
-        .project-title {
-            color: $color-paragraph;
-            text-decoration: none;
-            font-size: 1.6rem;
-            margin-left: 1em;
-        }
-        .project-category {
-            color: $color-paragraph;
-            text-decoration: none;
-            font-size: 1.4rem;
-            margin-left: 1em;
-        }
-
+        // .img-container {
+        //     margin-bottom: 1em;
+        //     overflow: hidden;
+        //     border-radius: 2rem;
+        //     height: 400px;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     img {
+        //         // width: 100%;
+        //         height: 100%;
+        //         border-radius: 2rem;
+        //         transition: 250ms ease;
+        //         object-fit: cover;
+        //         &:hover {
+        //             transform: scale(1.1);
+        //         }
+        //     }
+        // }
+        
 
         .project-description {
             position: absolute;
@@ -152,4 +139,23 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
             color: $color-accent;
         }
     }
+}
+
+.link {
+    text-decoration: none;
+}
+.project-tab {
+    .project-title {
+        color: $color-paragraph;
+        text-decoration: none;
+        font-size: 1.6rem;
+        margin-left: 1em;
+    }
+    .project-category {
+        color: $color-paragraph;
+        text-decoration: none;
+        font-size: 1.4rem;
+        margin-left: 1em;
+    }
+
 }
