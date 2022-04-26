@@ -19,6 +19,10 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         border: 1px solid $color-border;
         border-radius: 10px;
         margin-right: 1em;
+        a {
+            text-decoration: none;
+            color: $color-accent;
+        }
     }
 }
 .project-desc {
