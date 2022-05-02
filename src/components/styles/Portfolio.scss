@@ -26,8 +26,10 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
     grid-gap: 2em;
     grid-template-columns: 1fr; 
     margin-top: 2em;
+    padding-bottom: 4em;
     @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr;
+        padding-bottom: 1em;
     }
     @media (min-width: 1000px) {
         grid-template-columns: 1fr 1fr 1fr;
@@ -40,25 +42,6 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         overflow: hidden;
         margin: 1em 0.75em;
         cursor: pointer;
-        // .img-container {
-        //     margin-bottom: 1em;
-        //     overflow: hidden;
-        //     border-radius: 2rem;
-        //     height: 400px;
-        //     display: flex;
-        //     align-items: center;
-        //     justify-content: center;
-        //     img {
-        //         // width: 100%;
-        //         height: 100%;
-        //         border-radius: 2rem;
-        //         transition: 250ms ease;
-        //         object-fit: cover;
-        //         &:hover {
-        //             transform: scale(1.1);
-        //         }
-        //     }
-        // }
         
 
         .project-description {
@@ -130,7 +113,8 @@ $color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64
         border: none;
         outline: none;
         color: $color-paragraph;
-        margin-right: 1em;
+        margin-right: 0.7em;
+        margin-bottom: 1em;
         font-size: 1.4rem;
         margin-left: 1em;
         cursor: pointer;
