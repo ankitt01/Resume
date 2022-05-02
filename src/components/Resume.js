@@ -29,6 +29,11 @@ function Resume() {
             <div className="education">
                 <h2 id='projects'>Projects</h2>
                 <div className="tile">
+                    <p className="sub-title"><a href="https://crypto-tracker-website.netlify.app/">Crypto Tracker Website</a></p>
+                    <p className="year">2022</p>
+                    <p className="desc">This is a crypto dashboard website built using <span>Reactjs</span> and <span>Firebase</span> and styled using <span>Tailwind css</span> with firebase <span>authentication</span>.</p>
+                </div>
+                <div className="tile">
                     <p className="sub-title"> <a href="https://airbnb-clone-murex-xi.vercel.app/">Airbnb-Clone</a> </p>
                     <p className="year">2021</p>
                     <p className="desc">Used <span>Nextjs</span> framework to build the UI, and did the styling by the help of <span>Tailwind css</span> , Integrated <span>Mapbox</span> for displaying the map with the search Results, also integrated <span>Calendar</span> to pic the starting and ending date of your travel , and finally the <span>searching</span> destination functionality.</p>
