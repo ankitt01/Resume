@@ -7,6 +7,15 @@ import { motion, AnimatePresence } from 'framer-motion'
 function Portfolio() {
   const [projects, setProjects] = useState([
     {
+      img: "netflix.PNG",
+      title: "Netflix-Clone",
+      category: "Web Development",
+      desc: "This project is a UI clone of Netflix Website with user authentication using Firebase. Used Custom Hooks for authentication and react router to implement navigation along with protected routes. Search functionality has also been implemented using fuse.js",
+      tech: [ "ReactJs", "Firebase", "Tailwind Css"],
+      github: "https://github.com/ankitt01/netflix",
+      live: "https://netlix-ankit.netlify.app",
+    },
+    {
       img: "airbnb.PNG",
       title: "Airbnb-Clone",
       category: "Web Development",
