@@ -29,9 +29,14 @@ function Resume() {
             <div className="education">
                 <h2 id='projects'>Projects</h2>
                 <div className="tile">
+                    <p className="sub-title"><a href="https://netflix-ankit.netlify.app/">Netflix Clone</a></p>
+                    <p className="year">2022</p>
+                    <p className="desc">This is a netflic clone built using <span>Reactjs</span> and styled using <span>Tailwind css</span> with firebase <span>authentication</span>.</p>
+                </div>
+                <div className="tile">
                     <p className="sub-title"><a href="https://crypto-tracker-website.netlify.app/">Crypto Tracker Website</a></p>
                     <p className="year">2022</p>
-                    <p className="desc">This is a crypto dashboard website built using <span>Reactjs</span> and <span>Firebase</span> and styled using <span>Tailwind css</span> with firebase <span>authentication</span>.</p>
+                    <p className="desc">This is a crypto dashboard website built using <span>Reactjs</span> and styled using <span>Tailwind css</span> with firebase <span>authentication</span>.</p>
                 </div>
                 <div className="tile">
                     <p className="sub-title"> <a href="https://airbnb-clone-murex-xi.vercel.app/">Airbnb-Clone</a> </p>

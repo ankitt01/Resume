@@ -14,6 +14,7 @@ function Portfolio() {
       tech: [ "ReactJs", "Firebase", "Tailwind Css"],
       github: "https://github.com/ankitt01/netflix",
       live: "https://netlix-ankit.netlify.app",
+      video: "netflix",
     },
     {
       img: "airbnb.PNG",
@@ -23,6 +24,7 @@ function Portfolio() {
       tech: [ "ReactJs", "NextJs", "Tailwind Css"],
       github: "https://github.com/ankitt01/airbnb-clone",
       live: "https://airbnb-clone-murex-xi.vercel.app/",
+      video: "airbnb",
     },
     {
       img: "amazon.PNG",
@@ -32,6 +34,7 @@ function Portfolio() {
       tech: ["ReactJs", "Redux", "NextJs", "Firebase"],
       github: "https://github.com/ankitt01/amazon",
       live: "https://amazon-nine-lyart.vercel.app/",
+      video: "eShop",
     },
     {
       img: "css-grid.PNG",
@@ -50,6 +53,7 @@ function Portfolio() {
       tech: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/ankitt01/Covid19-LandingPage",
       live: "https://ankitt01.github.io/Covid19-LandingPage/",
+      video: "Covid19"
     },
     {
       img: "cred.PNG",
@@ -59,6 +63,7 @@ function Portfolio() {
       tech: ["ReactJs", "Tailwind CSS"],
       github: "https://github.com/ankitt01/CRED-clone",
       live: "https://credclone.netlify.app/",
+      video: "CRED"
     },
     {
       img: "crypto.PNG",
@@ -68,6 +73,7 @@ function Portfolio() {
       tech: ["ReactJs", "Tailwind CSS", "Firebase", "ChartJs"],
       github: "https://github.com/ankitt01/Crypto-Tracker",
       live: "https://crypto-tracker-website.netlify.app/",
+      video: "Crypto"
     },
     {
       img: "tesla.PNG",
@@ -77,6 +83,7 @@ function Portfolio() {
       tech: ["ReactJs", "Styled Components"],
       github: "https://github.com/ankitt01/Tesla-website",
       live: "https://ankitt01.github.io/Tesla-website/",
+      video: "Tesla"
     },
     {
       img: "glint.PNG",
@@ -85,17 +92,8 @@ function Portfolio() {
       desc: "This is just a static landing page developed using HTML and Scss. This was among my very first projects in my web development career.",
       tech: ["HTML", "Scss"],
       github: "https://github.com/ankitt01/Landing-Page",
-      live: "https://ankitt01.github.io/Landing-Page",                      
-    },
-    
-    {
-      img: "travel.PNG",
-      title: "Traveling Landing Page",
-      category: "Web Design",
-      desc: "This is just a static landing page developed using HTML and CSS. This was among my very first projects in my web development career.",
-      tech: ["HTML", "CSS"],
-      github: "https://github.com/ankitt01/Travel-Agency-Webpage",
-      live: "https://ankitt01.github.io/Travel-Agency-Webpage/",
+      live: "https://ankitt01.github.io/Landing-Page",    
+      video: null                  
     },
 
 

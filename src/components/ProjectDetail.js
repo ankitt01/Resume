@@ -1,6 +1,5 @@
 import "./styles/ProjectDetail.scss"
 import React from 'react'
-import {useParams} from "react-router-dom";
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import { NavLink } from "react-router-dom";
 import Slider from "./Slider";
@@ -20,7 +19,7 @@ const ProjectDetail = (props) => {
           </div>
           <p className='project-desc'>{project.desc}</p>
           <div className="slider">
-            {/* <Slider/> */}
+          { project.video && <video src={`/videos/${project.video}.mp4`} width="100%" autoPlay muted loop/>  }
           </div>
       </div>
   )
