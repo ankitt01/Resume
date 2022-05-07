@@ -117,7 +117,6 @@ function Portfolio() {
           <button onClick={() => setActiveFilter("All")} className={`${activeFilter ==="All" ? "active" : ""} tab`}>All</button>
           <button onClick={() => setActiveFilter("Web Development")} className={`${activeFilter ==="Web Development" ? "active" : ""} tab`}>Web Development</button>
           <button onClick={() => setActiveFilter("Web Design")} className= {`${activeFilter ==="Web Design" ? "active" : ""} tab`}>Web Design</button>
-          <button onClick={() => setActiveFilter("Applications")} className={`${activeFilter ==="Applications" ? "active" : ""} tab`}>Applications</button>
         </div>
         <motion.div layout className='projects'>
           <AnimatePresence>
